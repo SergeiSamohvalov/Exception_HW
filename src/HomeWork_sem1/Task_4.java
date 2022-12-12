@@ -16,7 +16,11 @@ public class Task_4 {
     }
 
     public static float[] difArrays(int[] arr1, int[] arr2) {
+<<<<<<< HEAD
         if (arr1 == null || arr2 == null) {
+=======
+        if (arr1 == null && arr2 == null) {
+>>>>>>> origin/master
             throw new RuntimeException("Массивы не могут содержать NULL");
         }
         if (arr1.length != arr2.length) {
