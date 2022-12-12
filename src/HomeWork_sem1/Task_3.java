@@ -15,11 +15,8 @@ public class Task_3 {
     }
 
     public static int[] difArrays(int[] arr1, int[] arr2) {
-<<<<<<< HEAD
+
         if (arr1 == null || arr2 == null) {
-=======
-        if (arr1 == null && arr2 == null) {
->>>>>>> origin/master
             throw new RuntimeException("Массив не может быть NULL");
         }
         if (arr1.length != arr2.length) {
