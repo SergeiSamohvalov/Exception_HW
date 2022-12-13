@@ -7,8 +7,10 @@ public class Task_4 {
         Scanner iScanner = new Scanner(System.in);
         String str = iScanner.nextLine();
         str = str.trim();
-        if(str.isEmpty())
+        if(str.isEmpty()) {
+            iScanner.close();
             throw new IllegalArgumentException("Пустую строку вводить нельзя.");
+        }
         else
             System.out.println(str);
     }
